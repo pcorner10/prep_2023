@@ -1,0 +1,8 @@
+fiona
+pyogrio
+pyproj
+rtree
+shapely
+geopandas
+editdistance
+xlrd

@@ -7,6 +7,12 @@ __pycache__/
 *.so
 *.xls
 
+*.shp 
+*.shx
+*.dbf
+*.prj
+
+
 data/denue/
 data/Rasters/
 
