@@ -36,7 +36,11 @@ func main() {
 
 	listFiles := []GDAL{}
 
-	for _, raster := range rasters {
+	for i, raster := range rasters {
+		if i < 218 + 38 {
+			continue
+		}
+
 		class := getMetadata(raster)
 
 		parameters := parameters{
@@ -61,7 +65,7 @@ func main() {
 	}
 
 	// save listFiles as a json file
-	saveJSON(listFiles, "output2.json")
+	saveJSON(listFiles, "output4.json")
 
 }
 
