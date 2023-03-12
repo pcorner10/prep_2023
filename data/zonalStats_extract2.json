@@ -1,0 +1,22 @@
+[
+	{
+		"PARAMETERS": {
+			"INPUT": "'C:/Users/pedro/Documents/workspace/prep_2023/data/colima/agebs_repro.gpkg|layername=reproyectada'", 
+			"INPUT_RASTER": "'C:/Users/pedro/Documents/workspace/prep_2023/data/Rasters/Hydraulic/Depth____4800.0.asc'", 
+			"RASTER_BAND": "1", 
+			"COLUMN_PREFIX": "'_'",
+			"STATISTICS": "[0,1,2]"},
+		"OUTPUTS": {"OUTPUT": "C:/Users/pedro/Documents/workspace/prep_2023/data/zonalStats/depth_4800.gpkg"}
+	},
+
+	{
+		"PARAMETERS": {
+			"INPUT": "'C:/Users/pedro/Documents/workspace/prep_2023/data/colima/agebs_repro.gpkg|layername=reproyectada'", 
+			"INPUT_RASTER": "'C:/Users/pedro/Documents/workspace/prep_2023/data/Rasters/Hydraulic/Depth____4800.0.asc'", 
+			"RASTER_BAND": "1", 
+			"COLUMN_PREFIX": "'_'", 
+			"STATISTICS": "[0,1,2]"}, 
+		"OUTPUTS": {
+			"OUTPUT": "C:/Users/pedro/Documents/workspace/prep_2023/data/zonalStats/depth_9000.gpkg"}
+	}
+]

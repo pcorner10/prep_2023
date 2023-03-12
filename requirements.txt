@@ -9,4 +9,4 @@ xlrd
 matplotlib
 seaborn
 rasterio
-osr
+rasterstats
