@@ -6,3 +6,7 @@ shapely
 geopandas
 editdistance
 xlrd
+matplotlib
+seaborn
+rasterio
+gdal
