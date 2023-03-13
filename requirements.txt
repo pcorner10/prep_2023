@@ -10,3 +10,5 @@ matplotlib
 seaborn
 rasterio
 rasterstats
+tensorflow
+scikit-learn
