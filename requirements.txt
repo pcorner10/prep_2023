@@ -12,3 +12,4 @@ rasterio
 rasterstats
 tensorflow
 scikit-learn
+mapclassify
